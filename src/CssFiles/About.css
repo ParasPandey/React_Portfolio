@@ -1,0 +1,32 @@
+.about {
+  background-color: transparent;
+  font-size: 1.1em;
+}
+.about > h1 {
+  color: black;
+  text-decoration: underline;
+}
+.profile {
+  max-width: 18em;
+  cursor: pointer;
+}
+
+.my-details {
+  background-color: white;
+  border-radius: 10px;
+}
+.details-row {
+  padding: 1rem !important;
+}
+.container-box {
+  width: 85% !important ;
+}
+.container {
+  padding-right: 0;
+  padding-left: 0;
+}
+@media only screen and (max-width: 600px) {
+  .about > h1 {
+    font-size:2.5rem;
+  }
+}

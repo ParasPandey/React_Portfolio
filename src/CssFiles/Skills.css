@@ -1,0 +1,79 @@
+.skills {
+  background-color: transparent;
+  font-size: 1.1em;
+}
+.skills > h1 {
+  color: black;
+  text-decoration: underline;
+}
+.image-style {
+  width: 3rem;
+  margin-right: 10px !important;
+}
+.focus {
+  transition: transform 0.3s;
+}
+
+.focus:hover {
+  transform: scale(1.05);
+}
+.skills .card {
+  width: -webkit-fill-available;
+  cursor: pointer;
+}
+
+.card-title {
+  font-size: 2em;
+  font-weight: 700;
+}
+.font-details {
+  font-size: 3em;
+  font-weight: 500;
+  color: #231d5af8;
+}
+
+.font-details-b {
+  font-size: 3em;
+  font-weight: 500;
+  color: #ffffff;
+}
+.card-deck {
+  flex-direction: row !important;
+  justify-content: space-around;
+}
+.skills .row {
+  margin: 0;
+}
+.card-text a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 1000px) {
+  .skills .card-title {
+    font-size: 1.6em;
+    font-weight: 600;
+  }
+  .skills .col-md-4 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .card-title {
+    font-size: 1.4em;
+    font-weight: 600;
+  }
+}
+@media only screen and (max-width: 756px) {
+  .card-deck .card {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .skills .card {
+    width: 90%;
+  }
+  .skills > h1 {
+    font-size: 2.5em;
+  }
+}

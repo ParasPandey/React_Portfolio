@@ -1,0 +1,79 @@
+.outerdiv {
+  background-image: linear-gradient(
+    -225deg,
+    #2cd8d5 0%,
+    #6b8dd6 48%,
+    #8e37d7 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.jumbotron {
+  padding: 0;
+}
+.card {
+  margin: 5rem;
+  cursor: pointer;
+}
+.img-exp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-exp img {
+  width: 100px;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body-title-style {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.style {
+  font-size: 20px;
+}
+.style .description{
+  margin-top: 20px;
+}
+.experience h1 {
+  color: black;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    margin: 4rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .card {
+    margin: 3rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    margin: 1.5rem;
+  }
+  .experience h1 {
+    font-size:2.5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .experience .card-body {
+    padding: 0.5rem;
+  }
+  .experience .card-body p {
+    font-size: 18px;
+  }
+  .card {
+    margin: 0.5rem;
+  }
+  
+}

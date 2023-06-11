@@ -1,0 +1,101 @@
+.project .card {
+  margin: 1rem;
+}
+.project .project_title {
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+}
+.project_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.project_image {
+  width: 100%;
+}
+.showdetails {
+  width: 100%;
+  outline: none;
+}
+.main_content {
+  padding: 1rem;
+  text-align: left;
+}
+.accordian {
+  background-color: #922e92 !important;
+  color: white !important;
+  justify-content: center !important;
+}
+.accordian .MuiAccordionSummary-content {
+  flex-grow: 0 !important;
+}
+.about_project {
+  margin-top: 10px;
+}
+.MuiPaper-root {
+  border-radius: 10px !important;
+}
+.project_content .MuiButtonBase-root {
+  border-radius: 10px;
+}
+.project_btns {
+  display: flex;
+  justify-content: space-between;
+}
+.disable {
+  pointer-events: none;
+  background-color: grey;
+}
+.timeline_duration {
+  font-weight: 600 !important;
+  font-size: 1.3rem !important;
+}
+.MuiTimelineConnector-root {
+  background-color: rgb(228, 39, 39) !important;
+  width: 5px !important;
+  border-radius: 10px !important;
+}
+
+.features li{
+  margin: 10px 0px;
+}
+.tech_used li{
+  margin: 10px 0px;
+}
+@media only screen and (max-width: 800px) {
+  .timeline .MuiTimelineItem-root {
+    display:inline-block !important;
+  }
+  .MuiTimelineSeparator-root {
+    display:none !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project .card {
+    margin: 0rem;
+  }
+  .timeline ul{
+    margin: 0;
+    padding: 0;
+  }
+  .timeline h1{
+    font-size:2.5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .timeline .MuiTimelineContent-root{
+    padding: 0;
+  }
+  .project .card .card-body .about_project{
+    font-size:  14px;
+  }
+  .project .card .card-body .about_project .project_btns button{
+    font-size:  14px;
+  }
+  .MuiAccordionSummary-root{
+    min-height: 30px !important;
+  }
+
+}

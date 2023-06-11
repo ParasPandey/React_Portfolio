@@ -1,0 +1,22 @@
+.contact_container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+}
+#insta-btn {
+  border-color: #db35a7;
+  color: #db35a7;
+}
+#insta-btn:hover {
+  background-color: #db35a7;
+  color: #ffffff;
+}
+.contact > h1{
+  color: black;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+  .contact h1{
+    font-size:2.5rem;
+  }
+}

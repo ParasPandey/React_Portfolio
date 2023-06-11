@@ -1,0 +1,47 @@
+.MuiAvatar-root {
+  height: 50px;
+  width: 50px;
+}
+.navlinks {
+  justify-content: space-between;
+  /* margin-left: 10rem; */
+}
+.navlinks ul li {
+  margin: 0 0.7rem;
+  font-size: 1.2rem;
+  color: white;
+}
+.navbar-nav {
+  position: absolute;
+  right: 10px;
+}
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.navbar {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+}
+.animate-navbar {
+  box-shadow: 1px 1px 1px #222;
+  animation: moveDown 0.5s ease-in-out;
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-5rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+@media only screen and (max-width: 770px) {
+  .navbar-nav {
+    position:relative;
+    width: 100%;
+}
+}
